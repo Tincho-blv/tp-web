@@ -1,0 +1,219 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  background-color: rgb(49, 45, 45);
+  justify-content: space-between;
+  height: 5%;
+}
+
+
+.cabeza {
+  position: relative;
+  display: inline-block;
+}
+
+.btnCabeza {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.listaCabeza {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  min-width: 120px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.listaCabeza li {
+  padding: 10px;
+}
+
+.listaCabeza li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.cabeza:hover .listaCabeza {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cabeza a:hover {
+  background-color: rgba(45, 45, 243, 0.2);
+}
+
+#listaBusqueda {
+  font-size: 70px;
+}
+
+#primerBloque {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url('https://i.ytimg.com/vi/lRWqYR3e7xE/maxresdefault.jpg');
+  background-size: cover;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#listaCd {
+  padding: 30px;
+
+}
+
+#listaCd li {
+  list-style: disc;
+}
+
+#listaCd li a {
+  color: black;
+  text-decoration: none;
+}
+
+#listaCd li a:hover {
+  color: violet;
+  text-decoration: underline;
+}
+
+.imgagDon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#titulo {
+  color: rgb(255, 255, 255);
+  top: 0;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Secular One', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btnInicio {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.btnInicio:hover {
+  background-color: #555;
+}
+
+#biografia {
+  color: rgb(0, 0, 0);
+
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.897);
+}
+
+.primerParrafo {
+  color: green;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+#contacto {
+  background-image: url('https://i.ytimg.com/vi/lRWqYR3e7xE/maxresdefault.jpg');
+}
+
+.comentario1 {
+  width: 350px;
+}
+
+.background-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  font-size: 50px;
+}
+
+.background-image {
+  background-image: url('https://i.ytimg.com/vi/lRWqYR3e7xE/maxresdefault.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+  margin: 15px;
+}
+
+#musicaVideo {
+  background-image: url("https://los40es00.epimg.net/los40/imagenes/2021/11/10/los40urban/1636555134_803222_1636555243_rrss_normal.jpg");
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+#discografia1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  background-image: url("https://www.buenamusica.com/media/fotos/cantantes/biografia/don-omar.jpg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  background-position: right;
+  background-size: 50%;
+}
+
+
+
